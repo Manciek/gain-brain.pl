@@ -1,0 +1,163 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-bottom:65px;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img {
+    height: 40px; /* Adjust logo size */
+    margin-right: 50%;
+    border-radius: 12px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#block-image {
+    text-align: center;
+    margin: 20px;
+}
+
+#block-image h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: -2px -3px 3px black;
+}
+
+#block-image img {
+    width: 80%;
+    display:block;
+    margin:0 auto;
+    height: 53%;
+}
+
+#postContainer {
+    padding: 20px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#napis {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 9px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-items: center;
+}
+footer div{
+    display:flex;
+    align-items: center;
+}
+footer div p{
+    padding-right:4px;
+}
+footer img{
+    height: 40px;
+}
+
+section {
+    padding: 20px;
+    background: #fff; /* White background for contrast */
+    margin: 20px; /* Space around the section */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+section h2 {
+    font-size: 2em; /* Larger font size for section headings */
+    margin-top: 10px;
+    margin-bottom: 10px; /* Space below the heading */
+    color: #333; /* Dark color for headings */
+    text-align: left; /* Align headings to the left */
+}
+
+section p {
+    font-size: 1em; /* Standard font size for paragraphs */
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 15px; /* Space below paragraphs */
+    color: #555; /* Slightly lighter color for text */
+}
+
+section img {
+    max-width: 300px; /* Responsive images */
+    float: left;
+    margin-right: 10px;
+}
+
+ul, li{
+    text-align: left;
+    list-style: none;
+}
+
+b a {
+    text-decoration: none;
+    color: #e97421;
+    
+}
+b a:hover{
+    color: #8d4817;
+}
+#block-image h1#tyt{
+    text-shadow: none;
+    font-size: 2.4em;
+}
+#wrapper{
+    height:100vh;
+}
+@media (max-width: 768px) {
+    body {
+        margin-bottom:0;
+        font-size: 12px;
+    }
+    nav{
+        padding: 8px 9px;
+    }
+    nav img{
+        margin-right: 0;
+    }
+    #block-image img{
+        width: 100%;
+        height: 40%;
+    }
+    section img{
+        max-width: 148px;
+        padding: 1px 9px;
+    }
+    footer{
+        position:relative;
+    }
+}

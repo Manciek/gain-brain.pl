@@ -1,0 +1,20 @@
+{ "posts"s: [
+    {
+      "title": "Post 1",
+      "caption": "A beautiful sunrise",
+      "description": "This is a description of the first post. It highlights the beauty of nature.",
+      "image": "images/image1.jpg"
+    },
+    {
+      "title": "Post 2",
+      "caption": "Exploring the mountains",
+      "description": "A thrilling adventure in the rocky mountains.",
+      "image": "images/image2.jpg"
+    },
+    {
+      "title": "Post 3",
+      "caption": "Cityscape at night",
+      "description": "A mesmerizing view of the city illuminated at night.",
+      "image": "images/image3.jpg"
+    }
+  ]}
