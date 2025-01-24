@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+alert('gfc');
     const postContainer = document.getElementById('postContainer');
     const napis = document.getElementById('napis');
     const postFile = 'posts.json';
